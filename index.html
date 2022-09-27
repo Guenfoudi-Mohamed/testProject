@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+    <head>
+        <title>project_12-media_query</title>
+        <meta charser="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="project_12-media_query.css" type="text/css">
+        <link rel="stylesheet" href="icon_css/all.min.css" type="text/css"> <!-- for icon -->
+        <link rel="stylesheet" href="icon_css/all.css" type="text/css"> <!-- for icon -->
+    </head>
+    <body>
+        <!-- start input "check_navbar"
+        <input type="checkbox" id="check_navbar">
+        <input type="checkbox" id="check_pop_up"> -->
+        <!-- start pop_up -->
+        <div class="area">
+            <div class="pop_up">
+                <h3>Search</h3>
+                <label for="check_pop_up" name="s1">
+                    <a><i class="fas fa-times"></i></a>
+                </label>
+                <form>
+                    <input type="search" placeholder="Search Now !"><a href="#" title="search"><i class="fas fa-search"></i></a>
+                </form>
+            </div>
+        </div>
+        <!-- start header_top -->
+        <header class="header_top">
+            <!-- start nav_bar -->
+            <div class="nav_bar">
+                <div class="container">                    
+                    <!-- satrt logo -->
+                    <svg class="logo" height="100" width="100">
+                        <text x="50%" y="50%"  text-anchore="midddle">
+                            BLOGSHOP
+                        </text>
+                    </svg>
+                    <!-- end logo -->
+                    <!-- start list -->
+                    <div class="list">
+                        <li class="homeItem"><a href="#homeItem">Home</a></li>
+                        <li class="productsItem"><a href="#wrapper_1">Products</a></li>
+                        <!-- start li:nth(3) -->
+                        <li><a href="#">Shop&nbsp;<i class="fas fa-angle-down"></i></a>
+                            <div class="contents">
+                                <div class="cont 1">
+                                    <img src="images\img_1.png" alt="shop girl">
+                                </div>
+                                <div class="cont 2">
+                                    <a href="#">Shop Layout</a>
+                                    <a href="#">Shop With Background</a>
+                                    <a href="#">Shop Mini Categories</a>
+                                    <a href="#">Shop Only Categories</a>
+                                    <a href="#">Shop Icon Categories</a>
+                                </div>
+                                <div class="cont 3">
+                                    <a href="#">Filter Layout</a>
+                                    <a href="#">Sidebar</a>
+                                    <a href="#">Filter Default</a>
+                                    <a href="#">Filter Drawer</a>
+                                    <a href="#">Filter Dropdown</a>
+                                </div>
+                                <div class="cont 4">
+                                    <a href="#">Product Layout</a>
+                                    <a href="#">Layout Zoom</a>
+                                    <a href="#">Layout Sticky</a>
+                                    <a href="#">Layout Sticky 2</a>
+                                    <a href="#">Layout Scroll</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">Blog</a></li>
+                        <!-- start li:nth(5) -->
+                        <li><a href="#">Vendors&nbsp;<i class="fas fa-angle-down"></i></a>
+                            <div class="contents">
+                                <a href="#">Vendor Store Listings</a>
+                                <a href="#">Store Details</a>
+                            </div>
+                        </li>
+                        <!-- start li:nth(6) -->
+                        <li><a href="#">Page&nbsp;<i class="fas fa-angle-down"></i></a>
+                            <div class="contents">
+                                <a href="#">About</a>
+                                <a href="#">Contact</a>
+                                <a href="#">Faq</a>
+                                <a href="#">Page 404</a>
+                            </div>
+                        </li>
+                        <li><a href="#" title="Shopping"><i class="fas fa-shopping-bag"></i></a></li>
+                         <!-- start last child li -->
+                            <!-- start icon_search -->
+                        <li>
+                            <label for="check_pop_up" name="s1">
+                                <a>                                                 <!-- f label > a <href="#" > <=<=<=<=<= no use href="" !!! -->
+                                    <i class="fas fa-search"></i>
+                                </a>
+                            </label>
+                        </li>
+                    </div>
+                    <!-- start humbrger -->
+                    <label class="humbrger" for="check_navbar">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </label>
+                </div>
+            </div>
+        </header>    
+        <!-- end header_top -->
+        <!-- start header_bottom -->
+        <header class="header_bottom">    
+            <!-- start slider -->
+            <div class="slider">
+                <div class="container">
+                    <!-- satrt content -->
+                    <div class="content">
+                        <p>Exclusive Sales</p>
+                        <h1>UP TO 50% OFF ON SALES</h1>
+                        <p>Get all Exclusive offers for the season</p>
+                        <a href="#">View Collection</a>
+                    </div>
+                    <!-- satrt img -->
+                    <img src="images\img_1.png" alt="girl_shop">
+                </div>
+            </div>
+            <!-- end slider -->
+        </header>
+        <!-- end header -->
+        <!-- start main -->
+        <main>
+            <!-- start wrapper_0 -->
+            <div id="wrapper_0" class="wrapper_0  wrapper">
+                <!-- start section_1 -->
+                <div class="section_1">
+                    <div class="container">
+                        <h1>Shop Collections</h1>
+                        <p>Select from the premium product and save plenty money</p>
+                        <div class="forms">
+                            <div class="form">
+                                <img src="images\10.jpg" alt="dress-shirt-png">
+                                <div class="pop_up">
+                                    <div class="content">
+                                        <h3>shoes</h3>
+                                        <a href="#" title="SHOP NOW">SHOP NOW</a>
+                                    </div>    
+                                </div>
+                            </div>
+                            <div class="form">
+                                <img src="images\7.png" alt="dress-shirt-png">
+                                <div class="pop_up">
+                                    <div class="content">
+                                        <h3>shoes</h3>
+                                        <a href="#" title="SHOP NOW">SHOP NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form">
+                                <img src="images\15.jpg" alt="dress-shirt-png">
+                                <div class="pop_up">
+                                    <div class="content">
+                                        <h3>shoes</h3>
+                                        <a href="#" title="SHOP NOW">SHOP NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form">
+                                <img src="images\11.jpg" alt="dress-shirt-png">
+                                <div class="pop_up">
+                                    <div class="content">
+                                        <h3>shoes</h3>
+                                        <a href="#" title="SHOP NOW">SHOP NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form">
+                                <img src="images\5.png" alt="dress-shirt-png">
+                                <div class="pop_up">
+                                    <div class="content">
+                                        <h3>shoes</h3>
+                                        <a href="#" title="SHOP NOW">SHOP NOW</a>
+                                    </div>    
+                                </div>
+                            </div>
+                            <div class="form">
+                                <img src="images\12.jpg" alt="dress-shirt-png">
+                                <div class="pop_up">
+                                    <div class="content">
+                                        <h3>shoes</h3>
+                                        <a href="#" title="SHOP NOW">SHOP NOW</a>
+                                    </div>    
+                                </div>
+                            </div>
+                            <div class="form">
+                                <img src="images\13.jpg" alt="dress-shirt-png">
+                                <div class="pop_up">
+                                    <div class="content">
+                                        <h3>shoes</h3>
+                                        <a href="#" title="SHOP NOW">SHOP NOW</a>
+                                    </div>    
+                                </div>
+                            </div>
+                            <div class="form">
+                                <img src="images\14.jpg" alt="dress-shirt-png">
+                                <div class="pop_up">
+                                    <div class="content">
+                                        <h3>shoes</h3>
+                                        <a href="#" title="SHOP NOW">SHOP NOW</a>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end section_1 -->
+                <!-- start section_2 -->
+                <div class="section_2">
+                    <!-- satrt container -->
+                    <div class="container">
+                        <h1>New Products</h1>
+                        <p>Select from the premium product and save plenty money</p>
+                        <!-- start forms -->
+                        <div class="forms">
+                            <div class="form">
+                                <div class="img">
+                                    <div class="back_gr"></div>
+                                    <img src="images\10.jpg" alt="dress-shirt-png">
+                                    <div class="icons">
+                                        <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                        <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                    </div>
+                                    <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                                <h5>Bambi Print Mini Backpack</h5>
+                                <p><span class="sp_1">150$</span></p>
+                            </div>
+                            <div class="form">
+                                <div class="img">
+                                    <div class="back_gr"></div>
+                                    <img src="images\7.png" alt="dress-shirt-png">
+                                    <div class="icons">
+                                        <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                        <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                    </div>
+                                    <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                                <h5>Bambi Print Mini Backpack</h5>
+                                <p><span class="sp_1">150$</span><span class="sp_2">160$</span></p>
+                            </div>
+                            <div class="form">
+                                <div class="img">
+                                    <div class="back_gr"></div>
+                                    <img src="images\15.jpg" alt="dress-shirt-png">
+                                    <div class="icons">
+                                        <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                        <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                    </div>
+                                    <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                                <h5>Bambi Print Mini Backpack</h5>
+                                <p><span class="sp_1">150$</span></p>
+                            </div>
+                            <div class="form">
+                                <div class="img">
+                                    <div class="back_gr"></div>
+                                    <img src="images\11.jpg" alt="dress-shirt-png">
+                                    <div class="icons">
+                                        <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                        <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                    </div>
+                                    <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                                <h5>Bambi Print Mini Backpack</h5>
+                                <p><span class="sp_1">150$</span><span class="sp_2">160$</span></p>
+                            </div>
+                            <div class="form">
+                                <div class="img">
+                                    <div class="back_gr"></div>
+                                    <img src="images\5.png" alt="dress-shirt-png">
+                                    <div class="icons">
+                                        <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                        <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                    </div>
+                                    <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                                <h5>Bambi Print Mini Backpack</h5>
+                                <p><span  class="sp_1">150$</span></p>
+                            </div>
+                            <div class="form">
+                                <div class="img">
+                                    <div class="back_gr"></div>
+                                    <img src="images\12.jpg" alt="dress-shirt-png">
+                                    <div class="icons">
+                                        <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                        <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                    </div>
+                                    <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                                <h5>Bambi Print Mini Backpack</h5>
+                                <p><span class="sp_1">150$</span></p>
+                            </div>
+                            <div class="form">
+                                <div class="img">
+                                    <div class="back_gr"></div>
+                                    <img src="images\13.jpg" alt="dress-shirt-png">
+                                    <div class="icons">
+                                        <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                        <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                    </div>
+                                    <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                                <h5>Bambi Print Mini Backpack</h5>
+                                <p><span class="sp_1">150$</span><span class="sp_2">160$</span></p>
+                            </div>
+                            <div class="form">
+                                <div class="img">
+                                    <div class="back_gr"></div>
+                                    <img src="images\14.jpg" alt="dress-shirt-png">
+                                    <div class="icons">
+                                        <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                        <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                    </div>
+                                    <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                                <h5>Bambi Print Mini Backpack</h5>
+                                <p><span class="sp_1">150$</span><span class="sp_2">160$</span></p>
+                            </div>
+                        </div>
+                        <!-- end forms -->
+                    </div>
+                </div>
+                <!-- end section_2 -->
+                <!-- start section_3 -->
+                <div class="section_3">
+                    <div class="container">
+                        <!-- start content_left -->
+                        <div class="contents left">
+                            <div class="bg_color"></div>
+                            <img src="images\14.png" alt="woman_shop">
+                            <div class="content">
+                                <h4>Exclusive Sales</h4>
+                                <h2>Spring Collection</h2>
+                                <a href="#" title="View Collection">View Collection</a>
+                            </div>
+                        </div>
+                        <!-- start content_right -->
+                        <div class="contents right">
+                            <div class="bg_color"></div>
+                            <div class="content">
+                                <h4>New Trending</h4>
+                                <h2>Design Bags</h2>
+                                <a href="#" title="Shop Now">Shop Now</a>
+                            </div>
+                            <img src="images\11.png" alt="bag">
+                        </div>
+                    </div>
+                </div>
+                <!-- end section_3 -->
+                <!-- start section_4 -->
+                <div class="section_4">
+                    <h1>Shop by Brand</h1>
+                    <p>Select from the premium brands and save plenty money</p>
+                    <div class="container">
+                        <div class="icons">
+                            <a href="#" title="amazon"><i class="fab fa-amazon"></i></a>
+                            <a href="#" title="fedex"><i class="fab fa-fedex"></i></a>
+                            <a href="#" title="apple"><i class="fab fa-apple"></i></a>
+                            <a href="#" title="node.js"><i class="fab fa-node"></i></a>
+                            <a href="#" title="studiovinari"><i class="fab fa-studiovinari"></i></a>
+                            <a href="#" title="aviato"><i class="fab fa-aviato"></i></a>
+                            <a href="#" title="ebay"><i class="fab fa-ebay"></i></a>
+                            <a href="#" title="aws"><i class="fab fa-aws"></i></a>
+                            <a href="#" title="medrt"><i class="fab fa-medrt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end section_4 -->
+            </div>
+            <!-- start wrapper_1 -->
+            <div id="wrapper_1" class="wrapper_1 active wrapper">
+                <div class="container">
+                    <!-- start aside -->
+                    <aside>
+                        <div class="asd_1">
+                            <h1>Category</h1>
+                            <div class="inputs inp_1">
+                                <div class="cont"><input type="checkbox" id="inp1"><label for="inp1">Shoes</label></div>
+                                <div class="cont"><input type="checkbox" id="inp2"><label for="inp2">Bags</label></div>
+                                <div class="cont"><input type="checkbox" id="inp3"><label for="inp3">Accessories</label></div>
+                                <div class="cont"><input type="checkbox" id="inp4"><label for="inp4">Clothings</label></div>
+                            </div>
+                        </div>
+                        <div class="asd_2">
+                            <h1>Brands</h1>
+                            <div class="inputs inp_2">
+                                <div class="cont"><input type="checkbox" id="inp5"><label for="inp5">Gucci</label></div>
+                                <div class="cont"><input type="checkbox" id="inp6"><label for="inp6">Burberry</label></div>
+                                <div class="cont"><input type="checkbox" id="inp7"><label for="inp7">Accessories</label></div>
+                                <div class="cont"><input type="checkbox" id="inp8"><label for="inp8">Valentini</label></div>
+                                <div class="cont"><input type="checkbox" id="inp9"><label for="inp9">Dolce & Gabbana</label></div>
+                                <div class="cont"><input type="checkbox" id="inp10"><label for="inp10">Hogan</label></div>
+                                <div class="cont"><input type="checkbox" id="inp11"><label for="inp11">Moreschi</label></div>
+                                <div class="cont"><input type="checkbox" id="inp12"><label for="inp12">Givenchy</label></div>
+                            </div>
+                        </div>
+                    </aside>
+                    <!-- end aside -->
+                    <!-- start article -->
+                    <article>
+                        <!-- start buttons -->
+                        <div class="buttons">
+                            <label for="lbl_1">Sort By</label>
+                            <select id="lbl_1">
+                                <option selected>Name</option>
+                                <option>Price</option>
+                                <option>Relevance</option>
+                                <option>Newness</option>
+                            </select>
+                            <label for="lbl_2">Order</label>
+                            <select id="lbl_2">
+                                <option selected>ASC</option>
+                                <option>DESC</option>
+                            </select>
+                            <input type="button" value="Apply">
+                        </div>
+                        <!-- start section_1 -->
+                        <div class="section_1">
+                            <!-- start forms -->
+                            <div class="forms">
+                                <div class="form" >
+                                    <div class="img">
+                                        <div class="back_gr"></div>
+                                        <img src="images\10.jpg" alt="dress-shirt-png">
+                                        <div class="icons">
+                                            <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                            <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                            <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                        </div>
+                                        <a href="#product_detail" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                    </div>
+                                    <a href="#product_detail">
+                                        <h5>Bambi Print Mini Backpack</h5>
+                                        <p><span class="sp_1">150$</span></p>
+                                    </a>
+                                </div>
+                                <div class="form">
+                                    <div class="img">
+                                        <div class="back_gr"></div>
+                                        <img src="images\7.png" alt="dress-shirt-png">
+                                        <div class="icons">
+                                            <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                            <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                            <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                        </div>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                    </div>
+                                    <a href="#product_detail">
+                                        <h5>Bambi Print Mini Backpack</h5>
+                                        <p><span class="sp_1">150$</span><span class="sp_2">160$</span></p>
+                                    </a>
+                                </div>
+                                <div class="form">
+                                    <div class="img">
+                                        <div class="back_gr"></div>
+                                        <img src="images\15.jpg" alt="dress-shirt-png">
+                                        <div class="icons">
+                                            <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                            <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                            <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                        </div>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                    </div>
+                                    <a href="#product_detail">
+                                        <h5>Bambi Print Mini Backpack</h5>
+                                        <p><span class="sp_1">150$</span></p>
+                                    </a>
+                                </div>
+                                <div class="form">
+                                    <div class="img">
+                                        <div class="back_gr"></div>
+                                        <img src="images\11.jpg" alt="dress-shirt-png">
+                                        <div class="icons">
+                                            <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                            <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                            <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                        </div>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                    </div>
+                                    <a href="#product_detail">
+                                        <h5>Bambi Print Mini Backpack</h5>
+                                        <p><span class="sp_1">150$</span><span class="sp_2">160$</span></p>
+                                    </a>
+                                </div>
+                                <div class="form">
+                                    <div class="img">
+                                        <div class="back_gr"></div>
+                                        <img src="images\5.png" alt="dress-shirt-png">
+                                        <div class="icons">
+                                            <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                            <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                            <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                        </div>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                    </div>
+                                    <a href="#product_detail">
+                                        <h5>Bambi Print Mini Backpack</h5>
+                                        <p><span class="sp_1">150$</span></p>
+                                    </a>
+                                </div>
+                                <div class="form">
+                                    <div class="img">
+                                        <div class="back_gr"></div>
+                                        <img src="images\12.jpg" alt="dress-shirt-png">
+                                        <div class="icons">
+                                            <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                            <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                            <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                        </div>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                    </div>
+                                    <a href="#product_detail">
+                                        <h5>Bambi Print Mini Backpack</h5>
+                                        <p><span class="sp_1">150$</span></p>
+                                    </a>
+                                </div>
+                                <div class="form">
+                                    <div class="img">
+                                        <div class="back_gr"></div>
+                                        <img src="images\13.jpg" alt="dress-shirt-png">
+                                        <div class="icons">
+                                            <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                            <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                            <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                        </div>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                    </div>
+                                    <a href="#product_detail">
+                                        <h5>Bambi Print Mini Backpack</h5>
+                                        <p><span class="sp_1">150$</span><span class="sp_2">160$</span></p>
+                                    </a>
+                                </div>
+                                <div class="form">
+                                    <div class="img">
+                                        <div class="back_gr"></div>
+                                        <img src="images\14.jpg" alt="dress-shirt-png">
+                                        <div class="icons">
+                                            <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                            <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                            <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                        </div>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                    </div>
+                                    <a href="#product_detail">
+                                        <h5>Bambi Print Mini Backpack</h5>
+                                        <p><span class="sp_1">150$</span><span class="sp_2">160$</span></p>
+                                    </a>
+                                </div>
+                                <div class="form">
+                                    <div class="img">
+                                    <div class="back_gr"></div>
+                                        <img src="images\10.jpg" alt="dress-shirt-png">
+                                        <div class="icons">
+                                            <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                            <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                            <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                        </div>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                    </div>
+                                    <a href="#product_detail">
+                                        <h5>Bambi Print Mini Backpack</h5>
+                                        <p><span class="sp_1">150$</span></p>
+                                    </a>
+                                </div>
+                                <div class="form">
+                                    <div class="img">
+                                        <div class="back_gr"></div>
+                                        <img src="images\10.jpg" alt="dress-shirt-png">
+                                        <div class="icons">
+                                            <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                            <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                            <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                        </div>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                    </div>
+                                    <a href="#product_detail">
+                                        <h5>Bambi Print Mini Backpack</h5>
+                                        <p><span class="sp_1">150$</span></p>
+                                    </a>
+                                </div>
+                                <div class="form">
+                                    <div class="img">
+                                        <div class="back_gr"></div>
+                                        <img src="images\7.png" alt="dress-shirt-png">
+                                        <div class="icons">
+                                            <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                            <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                            <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                        </div>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                    </div>
+                                    <a href="#product_detail">
+                                        <h5>Bambi Print Mini Backpack</h5>
+                                        <p><span class="sp_1">150$</span><span class="sp_2">160$</span></p>
+                                    </a>
+                                </div>
+                                <div class="form">
+                                    <div class="img">
+                                        <div class="back_gr"></div>
+                                        <img src="images\15.jpg" alt="dress-shirt-png">
+                                        <div class="icons">
+                                            <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                            <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                            <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                        </div>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                    </div>
+                                    <a href="#product_detail">
+                                        <h5>Bambi Print Mini Backpack</h5>
+                                        <p><span class="sp_1">150$</span></p>
+                                    </a>
+                                </div>
+                                <div class="form">
+                                    <div class="img">
+                                        <div class="back_gr"></div>
+                                        <img src="images\11.jpg" alt="dress-shirt-png">
+                                        <div class="icons">
+                                            <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                            <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                            <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                        </div>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                    </div>
+                                    <a href="#product_detail">
+                                        <h5>Bambi Print Mini Backpack</h5>
+                                        <p><span class="sp_1">150$</span><span class="sp_2">160$</span></p>
+                                    </a>
+                                </div>
+                                <div class="form">
+                                    <div class="img">
+                                        <div class="back_gr"></div>
+                                        <img src="images\5.png" alt="dress-shirt-png">
+                                        <div class="icons">
+                                            <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                            <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                            <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                            </div>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                    </div>
+                                    <a href="#product_detail">
+                                        <h5>Bambi Print Mini Backpack</h5>
+                                        <p><span class="sp_1">150$</span></p>
+                                    </a>
+                                </div>
+                                <div class="form">
+                                    <div class="img">
+                                        <div class="back_gr"></div>
+                                        <img src="images\12.jpg" alt="dress-shirt-png">
+                                        <div class="icons">
+                                            <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                            <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                            <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                        </div>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                    </div>
+                                    <a href="#product_detail">
+                                        <h5>Bambi Print Mini Backpack</h5>
+                                        <p><span class="sp_1">150$</span></p>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- end forms -->
+                            <div class="page_number">
+                                <a href="#">1</a>
+                                <a href="#">2</a>
+                                <a href="#">>></a>
+                                <a href="#">Last >></a>
+                            </div>
+                        </div>
+                        <!-- end container -->
+                    </article>
+                    <!-- end article -->
+                </div>
+            </div>
+            <!-- start wrapper_2 -->
+            <div id="wrapper_2" class="wrapper_2 active wrapper">
+                <!-- satrt section_1 -->
+                <div class="section_1">
+                    <!-- start container -->
+                    <div class="container">
+                        <!-- start content_left -->
+                        <div class="content_left">
+                            <div class="img_parent">
+                                <img src="images/10.jpg" alt="photo_1">
+                            </div>
+                            <div class="imgs_childs">
+                                <a href="#" class="a1"><img src="images/13.jpg" alt="product_1"></a>
+                                <a href="#"><img src="images/7.png" alt="product_2"></a>
+                                <a href="#"><img src="images/14.jpg" alt="product_4"></a>
+                                <a href="#"><img src="images/5.png" alt="product_3"></a>
+                            </div>
+                        </div>
+                        <!-- start content_right -->
+                        <div class="content_right">
+                            <span>Home/T-shirt</span>
+                            <h1>Bambi Print Mini Backpack</h1>
+                            <h4>50$</h4>
+                            <select>
+                                <option selected disabled>Select Size</option>
+                                <option>32</option>
+                                <option>42</option>
+                                <option>52</option>
+                                <option>62</option>
+                            </select>
+                            <div class="inp_btn"><input type="text" maxlength="3"><a href="#wrapper_3" class="cartItem">Add To Cart</a></div>
+                            <h2>PRODUCT DETAIL</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley .</p>
+                        </div>
+                        <!-- end content_right  -->
+                    </div>
+                </div>
+                <!-- start section_2 -->
+                <div class="section_2">
+                    <!-- start container -->
+                    <div class="container">
+                        <h1>Related Products</h1>
+                        <p>Select from the premium product brands and save plenty money</p>
+                        <!-- start forms -->
+                        <div class="forms">
+                            <div class="form">
+                                <div class="img">
+                                    <div class="back_gr"></div>
+                                    <img src="images\10.jpg" alt="dress-shirt-png">
+                                    <div class="icons">
+                                        <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                        <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                    </div>
+                                    <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                                <h5>Bambi Print Mini Backpack</h5>
+                                <p><span class="sp_1">150$</span></p>
+                            </div>
+                            <div class="form">
+                                <div class="img">
+                                    <div class="back_gr"></div>
+                                    <img src="images\7.png" alt="dress-shirt-png">
+                                    <div class="icons">
+                                        <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                        <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                    </div>
+                                    <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                                <h5>Bambi Print Mini Backpack</h5>
+                                <p><span class="sp_1">150$</span><span class="sp_2">160$</span></p>
+                            </div>
+                            <div class="form">
+                                <div class="img">
+                                    <div class="back_gr"></div>
+                                    <img src="images\11.jpg" alt="dress-shirt-png">
+                                    <div class="icons">
+                                        <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                        <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                    </div>
+                                    <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                                <h5>Bambi Print Mini Backpack</h5>
+                                <p><span class="sp_1">150$</span></p>
+                            </div>
+                            <div class="form">
+                                <div class="img">
+                                    <div class="back_gr"></div>
+                                    <img src="images\15.jpg" alt="dress-shirt-png">
+                                    <div class="icons">
+                                        <a href="#" title="Search"><i class="fas fa-search"></i></a>
+                                        <a href="#" title="Heart"><i class="far fa-heart"></i></a>
+                                        <a href="#" title="Sliders-h"><i class="fas fa-sliders-h"></i></a>
+                                    </div>
+                                    <a href="#" title="Sliders-h"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                                <h5>Bambi Print Mini Backpack</h5>
+                                <p><span class="sp_1">150$</span><span class="sp_2">160$</span></p>
+                            </div>
+                        </div>
+                        <!-- end forms -->
+                    </div>
+                </div>
+                <!-- end section_2 -->
+            </div>
+            <!-- start wrapper_3 -->
+            <div id="wrapper_3" class="wrapper_3 active wrapper">
+                <div class="section_1">
+                    <div class="container">
+                        <div class="header_content">
+                            <h3>Product</h3>
+                            <h3>Quality</h3>
+                            <h3>Subtotal</h3>
+                        </div>
+                        <div class="rows_contents">
+                            <div class="row">
+                                <div class="con_left">
+                                    <img src="images\7.png" alt="closhe">
+                                    <div class="content">
+                                        <h4>Bambi Print Mini Backpack</h4>
+                                        <span>Price: $500.00</span>
+                                        <a href="#">remove</a>
+                                    </div>
+                                </div>
+                                <input type="number" value="1">
+                                <span>$50.00</sapn>
+                            </div>
+                            <div class="row">
+                                <div class="con_left">
+                                    <img src="images\11.jpg" alt="closhe">
+                                    <div class="content">
+                                        <h4>Bambi Print Mini Backpack</h4>
+                                        <span>Price: $900.00</span>
+                                        <a href="#">remove</a>
+                                    </div>
+                                </div>
+                                <input type="number" value="1">
+                                <span>$90.00</sapn>
+                            </div>
+                            <div class="row">
+                                <div class="con_left">
+                                    <img src="images/5.png" alt="closhe">
+                                    <div class="content">
+                                        <h4>Bambi Print Mini Backpack</h4>
+                                        <span>Price: $850.00</span>
+                                        <a href="#">remove</a>
+                                    </div>
+                                </div>
+                                <input type="number" value="1">
+                                <span>$60.00</sapn>
+                            </div>
+                            <div class="row">
+                                <div class="con_left">
+                                    <img src="images/13.jpg" alt="closhe">
+                                    <div class="content">
+                                        <h4>Bambi Print Mini Backpack</h4>
+                                        <span>Price: $700.00</span>
+                                        <a href="#">remove</a>
+                                    </div>
+                                </div>
+                                <input type="number" value="1">
+                                <span>$60.00</sapn>
+                            </div>
+                            <div class="row">
+                                <div class="con_left">
+                                    <img src="images\15.jpg" alt="closhe">
+                                    <div class="content">
+                                        <h4>Bambi Print Mini Backpack</h4>
+                                        <span>Price: $650.00</span>
+                                        <a href="#">remove</a>
+                                    </div>
+                                </div>
+                                <input type="number" value="1">
+                                <span>$75.00</sapn>
+                            </div>
+                            <div class="row">
+                                <div class="con_left">
+                                    <img src="images/10.jpg" alt="closhe">
+                                    <div class="content">
+                                        <h4>Bambi Print Mini Backpack</h4>
+                                        <span>Price: $700.00</span>
+                                        <a href="#">remove</a>
+                                    </div>
+                                </div>
+                                <input type="number" value="1">
+                                <span>$60.00</sapn>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end section_1 -->
+                <!-- start section_2 -->
+                <div class="section_2">
+                    <div class="container">
+                        <div class="contents">
+                            <div class="line"></div>
+                            <div class="content con1"><span>Subtotal</span><sapn>$200</sapn></div>
+                            <div class="content con2"><span>Tax</span><sapn>$50</sapn></div>
+                            <div class="content con3"><span>Total</span><sapn>$250</sapn></div>
+                            <a href="#" title="Checkout">Proceed To Checkout</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end section_2 -->
+            </div>
+        </main>
+        <!-- end main -->
+        <!-- start footer -->
+        <footer>
+            <!-- start container -->
+            <div class="container">
+                <div class="form">
+                    <h3>EXTRAS</h3>
+                    <a href="#">Brands</a>
+                    <a href="#">Gift Certificates</a>
+                    <a href="#">Affilate</a>
+                    <a href="#">Specials</a>
+                    <a href="#">Site Map</a>
+                </div>
+                <div class="form">
+                    <h3>INFORMATION</h3>
+                    <a href="#">About Us</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Site Map</a>
+                </div>
+                <div class="form">
+                    <h3>MY ACCOUNT</h3>
+                    <a href="#">My Account</a>
+                    <a href="#">Order Hestory</a>
+                    <a href="#">Wish List</a>
+                    <a href="#">Newsletter</a>
+                    <a href="#">returns</a>
+                </div>
+                <div class="form">
+                    <h3>CONTACT US</h3>
+                    <a href="#" title="Address"><i class="fas fa-map-marker-alt"></i>&nbsp;Ny Account</a>
+                    <a title="addres">7131 Dreamville, USA</a>
+                    <a href="mailto:mohamed.guenfoudi@hotmail.com" title="Gmail : mohamed.guenfoudi@hotmail.com" class="gmail_me"><i class="far fa-envelope"></i>&nbsp;mohamed.guenfoudi@hotmail.com</a>
+                    <a href="tel:+4733378901" title="phone"><i class="fas fa-phone"></i>&nbsp;+47 333 78 901</a> 
+                    <p><a href="#" title="mastercard"><i class="fab fa-cc-mastercard"></i></a><a href="#" title="paypal"><i class="fab fa-cc-paypal"></i></a><a href="#" title="amex"><i class="fab fa-cc-amex"></i></a><a href="#" title="visa"><i class="fab fa-cc-visa"></i></a><a href="#" title="discover"><i class="fab fa-cc-discover"></i></a></p>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+
+        <script defer  src="index.js"></script>
+    </body>
+</html>
