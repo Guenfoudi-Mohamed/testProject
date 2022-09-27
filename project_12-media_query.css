@@ -6,14 +6,14 @@
 html, body{height: 100%;}
 body{font-family: Arial, Helvetica, sans-serif;max-width: 1440px;margin: auto;display: flex;flex-direction: column;justify-content: space-between;}
     /* start check_navbar */
-/* body > input[id="check_navbar"]{display: none;}
+body > input[id="check_navbar"]{display: none;}
 body > input[id="check_navbar"]:checked ~ .header_top .nav_bar .container .humbrger .bar:first-child{transform: rotate(45deg)translate(0px,-3px);transform-origin: left;}
 body > input[id="check_navbar"]:checked ~ .header_top .nav_bar .container .humbrger .bar:nth-child(2){visibility: hidden;}
 body > input[id="check_navbar"]:checked ~ .header_top .nav_bar .container .humbrger .bar:last-child{transform-origin: left;transform: rotate(-45deg) translate(-1px,3px);}
-body > input[id="check_navbar"]:checked ~ .header_top .nav_bar .container > .list{max-height: 100em;} */
+body > input[id="check_navbar"]:checked ~ .header_top .nav_bar .container > .list{max-height: 100em;}
     /* start check_pop_up */
-/* body > input[id="check_pop_up"]{display: none;}
-body > input[id="check_pop_up"]:checked ~ .area{display: block;} */
+body > input[id="check_pop_up"]{display: none;}
+body > input[id="check_pop_up"]:checked ~ .area{display: block;}
 body .area{width: 100%;min-height: 100vh;z-index: 4;position: fixed;top: 0px;background-color: rgb(255,255,255,.4);backdrop-filter: blur(10px);display: none;}
 body .area .pop_up{width: 45vh;background-color: rgb(255, 255, 255);position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);padding: 15px;}
 body .area .pop_up h3{margin-left: 50px;}
