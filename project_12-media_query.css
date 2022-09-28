@@ -29,20 +29,6 @@ body .header_top .nav_bar{border-bottom: 1.5px solid rgb(160, 160, 160);}
 body .header_top .nav_bar .container{width: 85%;margin: auto;display: flex;justify-content: space-between;align-items: center;flex-wrap: wrap;position: relative; z-index: 1;}
         /* start logo */
 body .header_top .nav_bar .container .logo{overflow: visible;width: 150px;height: 46px;}
-/* body .header_top .nav_bar .container .logo text{font-weight: bold;stroke: black;stroke-width: 1px;font-size: 40px;letter-spacing: 2px;transform: translate(-121px,15px);animation:stroke_logo 5s 1.8s 1 both; stroke-dasharray:0px;}stroke stroke: black;stroke-width: 1.5px; stroke-dasharray & dasharraffset <<>> kndirohom m3a svg and forms fill kndiroha f color b svg and form */
-            /* animation >> logo */
-            @keyframes stroke_logo{
-                0%{
-                    stroke-dasharray: 38px;
-                    stroke-dashoffset: 50px;
-                    fill:var(--color);
-                }
-                100%{
-                    stroke-dasharray: 200px;
-                    stroke-dashoffset: 0px;
-                    fill: var(--color);
-                }
-            }
         /* start list */
 body .header_top .nav_bar .container > .list{transition:max-height 1.5s;overflow: hidden;}        
 body .header_top .nav_bar .container > .list > li{display: inline-block;}
